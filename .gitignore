@@ -3,6 +3,7 @@
 ################################################################################
 
 /.vs
+/Examples/.vs/
 /Examples/bin
 /Examples/obj
 /StartHere/obj
