@@ -42,7 +42,6 @@
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.4.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.4.0" />
 	<PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
-	<PackageReference Include="Ungerboeck.Api.Models" Version="1.251.1.2" />
+	<PackageReference Include="Ungerboeck.Api.Models" Version="1.251.1.4" />
   </ItemGroup>
-
 </Project>

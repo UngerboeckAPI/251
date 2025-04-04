@@ -93,10 +93,10 @@ namespace Examples.Operations
         Status = "80"
       };
 
-      if (!rank.IsNullOrEmpty()) eventOpportunitiesModel.Rank = rank;
+      if (!String.IsNullOrEmpty(rank)) eventOpportunitiesModel.Rank = rank;
       if (bidDue != null) eventOpportunitiesModel.BidDue = bidDue;
       if (businessType > 0) eventOpportunitiesModel.BusinessType = businessType;
-      if (!leadSource.IsNullOrEmpty()) eventOpportunitiesModel.LeadSource = leadSource;
+      if (!String.IsNullOrEmpty(leadSource)) eventOpportunitiesModel.LeadSource = leadSource;
 
       return apiClient.Endpoints.EventOpportunities.Add(eventOpportunitiesModel);
     }
